@@ -1,0 +1,18 @@
+.btnA{
+    margin-right: -83px;
+    background-color:  blue;
+    color: white;
+
+}
+.btnB{
+    margin-left: 80px;
+    background-color: red;
+    color: white;
+}
+body{
+    text-align: center;
+}
+#nm{
+width: 50%;
+height: 50px;
+}
