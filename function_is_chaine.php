@@ -77,7 +77,7 @@ function invers_car_cases($car){
            if ($car[0]==$min) {
                ($car[0]=$max);
             }
-            if($car[long_chaine($car)-1]=='.'){
+            if($car[long_chaine($car)-1]=='.' || $car[long_chaine($car)-1]=='!' || $car[long_chaine($car)-1]=='?'){
                
             }else{
                 $car=$car.'.';
